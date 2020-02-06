@@ -6,7 +6,7 @@ We can create an array without name, such type of nameless arrays are called ano
 The main purpose of anonymous array is just for instant use (just for one time usage) .
 Anonymous array is passed as an argument of method
 Syntax:
-// anonymous int array 
+Alt- anonymous int array 
 new int[] { 1, 2, 3, 4};  
 
 // anonymous char array 
