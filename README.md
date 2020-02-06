@@ -26,7 +26,7 @@ To overcome this issue, Java 8 has introduced the concept of default methods whi
 #### Example:
 // A simple program to Test Interface default 
 // methods in java 
-interface TestInterface 
+`interface TestInterface 
 { 
 	// abstract method 
 	public void square(int a); 
@@ -40,7 +40,7 @@ interface TestInterface
 
 class TestClass implements TestInterface 
 { 
-	// implementation of square abstract method 
+	
 	public void square(int a) 
 	{ 
 		System.out.println(a*a); 
@@ -54,4 +54,4 @@ class TestClass implements TestInterface
 		// default method executed 
 		d.show(); 
 	} 
-} 
+}`
