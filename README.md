@@ -26,7 +26,7 @@ To overcome this issue, Java 8 has introduced the concept of default methods whi
 #### Example:
 // A simple program to Test Interface default 
 // methods in java 
-`interface TestInterface 
+interface TestInterface 
 { 
 	// abstract method 
 	public void square(int a); 
@@ -54,4 +54,60 @@ class TestClass implements TestInterface
 		// default method executed 
 		d.show(); 
 	} 
+}
+
+## 3 Inheritance In Interface
+An interface in Java is a blueprint of a class. It has static constants and abstract methods
+The interface in Java is a mechanism to achieve abstraction. 
+There can be only abstract methods in the Java interface, not method body. 
+It is used to achieve abstraction and multiple inheritance in Java.
+There are mainly three reasons to use interface. They are given below.
+a, It is used to achieve abstraction.
+b, By interface, we can support the functionality of multiple inheritance.
+c, It can be used to achieve loose coupling
+
+A class implements an interface, but one interface extends another interface.
+
+`interface Printable{  
+void print();  
+}  
+interface Showable extends Printable{  
+void show();  
+}  
+class TestInterface4 implements Showable{  
+public void print(){System.out.println("Hello");}  
+public void show(){System.out.println("Welcome");}  
+  
+public static void main(String args[]){  
+TestInterface4 obj = new TestInterface4();  
+obj.print();  
+obj.show();  
+ }  
 }`
+## 4 Nested Interface
+An interface i.e. declared within another interface or class is known as nested interface.
+The nested interfaces are used to group related interfaces so that they can be easy to maintain.
+The nested interface must be referred by the outer interface or class. It can't be accessed directly.
+#### Syntax:
+interface interface_name{  
+ ...  
+ interface nested_interface_name{  
+  ...  
+ }  
+}   
+#### Example of Nested Interface:
+interface Showable{  
+  void show();  
+  interface Message{  
+   void msg();  
+  }  
+}  
+class TestNestedInterface1 implements Showable.Message{  
+ public void msg(){System.out.println("Hello nested interface");}  
+  
+ public static void main(String args[]){  
+  Showable.Message message=new TestNestedInterface1();//upcasting here  
+  message.msg();  
+ }  
+}  
+## 5 How to create your own exception class
