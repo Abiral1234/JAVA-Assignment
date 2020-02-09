@@ -39,7 +39,7 @@ class AnonymousArray
   }
  }
   
- public static void main(String...s)
+ public static void main(String [] args)
  {
   //1d anonymous array 
   print(new int[]{10,20,30,40});
