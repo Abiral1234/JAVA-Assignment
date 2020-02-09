@@ -3,6 +3,7 @@ An interface i.e. declared within another interface or class is known as nested 
 The nested interfaces are used to group related interfaces so that they can be easy to maintain.
 The nested interface must be referred by the outer interface or class. It can't be accessed directly.
 #### Syntax:
+```javascript
 interface interface_name{  
  ...  
  interface nested_interface_name{  
@@ -10,6 +11,7 @@ interface interface_name{
  }  
 }   
 #### Example of Nested Interface:
+```javascript
 interface Showable{  
   void show();  
   interface Message{  
