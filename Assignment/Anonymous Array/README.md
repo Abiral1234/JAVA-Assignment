@@ -19,7 +19,7 @@ new int[][] { {10, 20}, {30, 40, 50} };
 
 Example of AnonymousArray :
 
-class AnonymousArray
+``` class AnonymousArray
 {
  static void print(int a[])
  {
@@ -48,4 +48,4 @@ class AnonymousArray
   //2d anonymous array 
   print(new int[][]{{10,20},{30,40},{50,60}});  
  }
-}
+}```
