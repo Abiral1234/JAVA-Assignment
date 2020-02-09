@@ -19,7 +19,8 @@ new int[][] { {10, 20}, {30, 40, 50} };
 
 Example of AnonymousArray :
 
-``` class AnonymousArray
+```javascript 
+class AnonymousArray
 {
  static void print(int a[])
  {
