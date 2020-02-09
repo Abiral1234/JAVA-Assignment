@@ -10,7 +10,8 @@ c, It can be used to achieve loose coupling
 
 A class implements an interface, but one interface extends another interface.
 
-`interface Printable{  
+```javascript 
+interface Printable{  
 void print();  
 }  
 interface Showable extends Printable{  
