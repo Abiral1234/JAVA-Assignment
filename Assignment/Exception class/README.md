@@ -4,6 +4,7 @@ If you are creating your own Exception that is known as custom exception or user
 By the help of custom exception, you can have your own exception and message.
 
 Let's see a simple example of java custom exception.
+``` javacript 
 class InvalidAgeException extends Exception{  
  InvalidAgeException(String s){  
   super(s);  
