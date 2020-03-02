@@ -26,7 +26,7 @@ The BorderLayout is used to arrange the components in five regions: north, south
 ### FlowLayout
 The FlowLayout is used to arrange the components in a line, one after another (in a flow). It is the default layout of applet or panel.
 
-Fields of FlowLayout class
+Fields of FlowLayout class 
 public static final int LEFT
 public static final int RIGHT
 public static final int CENTER
@@ -40,9 +40,9 @@ public static final int TRAILING
 The GridLayout is used to arrange the components in rectangular grid. One component is displayed in each rectangle.
 
 Constructors of GridLayout class
-1. GridLayout(): creates a grid layout with one column per component in a row.
-1. GridLayout(int rows, int columns): creates a grid layout with the given rows and columns but no gaps between the components.
-1. GridLayout(int rows, int columns, int hgap, int vgap): creates a grid layout with the given rows and columns alongwith given horizontal and vertical gaps.
+1.  GridLayout(): creates a grid layout with one column per component in a row.
+1.  GridLayout(int rows, int columns): creates a grid layout with the given rows and columns but no gaps between the components.
+1.  GridLayout(int rows, int columns, int hgap, int vgap): creates a grid layout with the given rows and columns alongwith given horizontal and vertical gaps.
 
 
 
@@ -50,9 +50,9 @@ Constructors of GridLayout class
 ### CardLayout
 The CardLayout class manages the components in such a manner that only one component is visible at a time. It treats each component as a card that is why it is known as CardLayout.
 
-1. Constructors of CardLayout class
-1. CardLayout(): creates a card layout with zero horizontal and vertical gap.
-1. CardLayout(int hgap, int vgap): creates a card layout with the given horizontal and vertical gap.
+1.   Constructors of CardLayout class
+1.  CardLayout(): creates a card layout with zero horizontal and vertical gap.
+1.   CardLayout(int hgap, int vgap): creates a card layout with the given horizontal and vertical gap.
 
 
 
