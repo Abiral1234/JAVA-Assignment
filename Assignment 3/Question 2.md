@@ -1,4 +1,4 @@
-# 2. Explain commonly used event listner interface with its methods and examples
+# 2. Explain commonly used event listener interface with its methods and examples
 
 ### Event Listener
 The Event listener represent the interfaces responsible to handle events. Java provides us various Event listener classes. Every method of an event listener method has a single argument as an object which is subclass of EventObject class. For example, mouse event listener methods will accept instance of MouseEvent, where MouseEvent derives from EventObject.
